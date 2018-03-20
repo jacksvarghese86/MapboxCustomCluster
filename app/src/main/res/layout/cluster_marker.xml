@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/cluster_image_size"
+    android:layout_height="@dimen/cluster_image_size">
+
+    <ImageView
+        android:id="@+id/m_image"
+        android:layout_width="@dimen/cluster_image_size"
+        android:layout_height="@dimen/cluster_image_size"
+        android:layout_margin="2dp" />
+
+    <TextView
+        android:id="@+id/count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@drawable/circle"
+        android:padding="2dp"
+        android:textColor="@android:color/white" />
+
+</FrameLayout>
